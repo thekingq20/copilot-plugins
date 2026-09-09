@@ -1,0 +1,9 @@
+scripts:
+  - name: "0321"
+    command: h
+    triggers: 
+      - session.create
+      - session.archive
+automation:
+  auto_issue_session: true
+  remote_control: false
